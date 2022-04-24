@@ -1,0 +1,69 @@
+@media screen and (max-width:500px) {
+
+
+    body {
+          background-color: fuchsia;
+          flex-direction: column;
+          font-size: 10px;
+          align-items: center;
+          justify-content: center;
+          flex-wrap: wrap;
+          grid-template-columns: 100%;
+          grid-auto-rows: 100%;
+          grid-gap: 2px
+    }
+
+
+
+
+    .card {
+          flex-wrap: wrap;
+          flex-direction: column;
+    }
+
+    .heather_nav {
+          flex-direction: column;
+          padding: 1px
+    }
+
+    .heather_nav_lista {
+          flex-direction: column;
+    }
+
+    .footer-index {
+          flex-direction: column;
+    }
+
+    .heather {
+          flex-direction: colum;
+          flex-wrap: wrap;
+    }
+
+
+    .video-coder {
+          flex-direction: column;
+          width: 100%;
+          height: 100%;
+    }
+
+    .heather_tamanio {
+          flex-direction: column;
+    }
+
+    .heather_logo {
+          flex-direction: column;
+    }
+
+
+    .imagenes-galeria-oleo {
+          grid-template-columns: 100%;
+          grid-auto-rows: 100%;
+          grid-gap: 2px
+    }
+
+    .heather_nav {
+          display: colum;
+          justify-content: center;
+    }
+
+}

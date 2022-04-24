@@ -1,0 +1,444 @@
+/*variables*/
+/*resets*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+/*body*/
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  background-color: #f5eceb;
+}
+
+/*heather-nesting*/
+.heather_nav {
+  display: flex;
+  justify-items: space-evenly;
+}
+
+.heather_nav li {
+  margin: 20px;
+  border: solid 1px #9f5864;
+  padding: 10px;
+  border-radius: 10px;
+  align-items: center;
+  display: inline;
+}
+
+.heather_nav li a {
+  text-decoration: none;
+  color: #6c3057;
+}
+
+.heather_nav li a:hover {
+  background-color: #bb6262;
+  transform: rotate(10deg);
+}
+
+.heather_nav li li:hover {
+  background-color: #bb6262;
+}
+
+header {
+  background-color: #d1b6b4;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    background-color: fuchsia;
+    flex-direction: column;
+    font-size: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    grid-template-columns: 100%;
+    grid-auto-rows: 100%;
+    grid-gap: 2px;
+  }
+  .card {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .heather_nav {
+    flex-direction: column;
+    padding: 1px;
+  }
+  .heather_nav_lista {
+    flex-direction: column;
+  }
+  .footer-index {
+    flex-direction: column;
+  }
+  .heather {
+    flex-direction: colum;
+    flex-wrap: wrap;
+  }
+  .video-coder {
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+  .heather_tamanio {
+    flex-direction: column;
+  }
+  .heather_logo {
+    flex-direction: column;
+  }
+  .imagenes-galeria-oleo {
+    grid-template-columns: 100%;
+    grid-auto-rows: 100%;
+    grid-gap: 2px;
+  }
+  .heather_nav {
+    display: colum;
+    justify-content: center;
+  }
+}
+
+/*footer*/
+footer {
+  background-color: #d1b6b4;
+}
+
+.card_img1 {
+  border: solid 2px pink;
+  margin-left: 5px;
+}
+
+.card_img2 {
+  border: solid 2px pink;
+  margin-left: 5px;
+}
+
+.card_img3 {
+  border: solid 2px pink;
+  margin-left: 5px;
+}
+
+.section12 {
+  border: solid 2px fuchsia;
+  width: 16%;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.cajita image {
+  width: 30%;
+}
+
+.card_imagen {
+  width: 100%;
+}
+
+.rositas {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  display: flex;
+}
+
+/* galeria*/
+.hombre-oleo1:hover {
+  transform: translate(10px, 10px);
+}
+
+.perfil-mujer-oleo1:hover {
+  transform: translate(10px, 10px);
+}
+
+.arboles:hover {
+  transform: translate(10px, 10px);
+}
+
+.florcitas:hover {
+  transform: translate(10px, 10px);
+}
+
+.rostro-hombre-grafito:hover {
+  transform: translate(10px, 10px);
+}
+
+/*galeria grid*/
+.galeria {
+  color: #9f5864;
+  padding: 10px 0px 5px 10px;
+}
+
+.galeria2 {
+  color: #de6666;
+  padding: 0px 0px 5px 10px;
+}
+
+.imagenes-galeria-oleo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  grid-template-rows: 300px;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.prueba:hover {
+  box-shadow: 1px 1px 3px grey;
+  transform: rotate(30deg);
+}
+
+.hombre-oleo1 {
+  grid-row: 1/2;
+  grid-column: 2;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  box-shadow: 1px 1px 3px grey;
+}
+
+.perfil-mujer-oleo1 {
+  grid-column: span 1;
+  grid-row: span 1;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  box-shadow: 1px 1px 3px grey;
+}
+
+.arboles {
+  width: 100%;
+  height: 100%;
+  grid-row: 1/2;
+  box-shadow: 1px 1px 3px grey;
+}
+
+.rostro-hombre-grafito {
+  height: 100%;
+  width: 100%;
+  grid-row: 3;
+  padding: 10px;
+  box-shadow: 1px 1px 3px grey;
+}
+
+.florcitas {
+  grid-column: 1;
+  grid-row: 3;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  box-shadow: 1px 1px 3px grey;
+}
+
+/* ubicacion*/
+.miami-bootstrap {
+  padding: 10px;
+}
+
+.ubicacion-boot {
+  padding-left: 10px;
+}
+
+.mapa-bootstrap {
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+.ubicacion-mapa {
+  padding: 10px 10px 10px 10px;
+  color: #9f5864;
+}
+
+.miami {
+  padding: 8px 8px 8px 8px;
+}
+
+.mapita {
+  padding-left: 10px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+.paisaje-bootstrap {
+  padding-bottom: 20px;
+}
+
+.hermosa-escultura-mujer {
+  color: #9f5864;
+}
+
+.escultura-rostro-mujer {
+  color: #9f5864;
+}
+
+.hermoso-paisaje {
+  color: #9f5864;
+}
+
+/* contacto*/
+.contacto-x2 {
+  height: 50vh;
+  width: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.contacto-boot {
+  padding-top: 30px;
+  padding-left: 20px;
+}
+
+.contacto-cuadrados {
+  padding: 15px 0px 20px 20px;
+}
+
+/*Animaciones*/
+.colores-primarios-1 {
+  color: #9f5864;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+@keyframes colores-primarios {
+  0% {
+    background-color: red;
+  }
+  50% {
+    background-color: blue;
+  }
+  100% {
+    background-color: green;
+  }
+}
+
+.colores-primarios {
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  margin: 50px;
+  animation-name: colores-primarios;
+  animation-duration: 6s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  text-align: center;
+}
+
+/*obras*/
+.obras-reconocidas {
+  color: #9f5864;
+}
+
+.rostro-grafito-bootstrap {
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+.hermoso-paisaje {
+  text-align: center;
+}
+
+.hermosa-escultura-mujer {
+  text-align: center;
+}
+
+/*obras*/
+.obras-reconocidas {
+  color: #9f5864;
+}
+
+.rostro-grafito-bootstrap {
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+.hermoso-paisaje {
+  text-align: center;
+}
+
+.hermosa-escultura-mujer {
+  text-align: center;
+}
+
+/*index*/
+.video-coder {
+  display: flex;
+  height: 25%;
+  width: 25%;
+}
+
+.video-coder-bootstrap {
+  height: 25%;
+  width: 25%;
+  padding: 5px 0px 20px 20px;
+}
+
+.conoce {
+  padding: 10px 0px 10px 10px;
+  color: #bb6262;
+}
+
+.video-coder {
+  height: 25%;
+  width: 25%;
+  padding: 10px 0px 10px 10px;
+  display: flex;
+}
+
+.obras-abstractas {
+  color: #de6666;
+  padding-left: 10px;
+}
+
+.contacto-cuadrados {
+  padding: 15px 0px 20px 20px;
+}
+
+/* informacion */
+.maestros_texto {
+  padding: 10px;
+  margin: 10px;
+}
+
+.ph-maestros {
+  padding: 10px;
+}
+
+.profes-arte-bootstrap {
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+.acerca-de-bootstrap {
+  padding-left: 10px;
+}
+
+.acerca-de-bootstrap {
+  color: #9f5864;
+  padding-left: 10px;
+}
+
+.datos-curiosos {
+  color: #9f5864;
+}
+
+.text-end {
+  text-align: start !important;
+  font-size: 12px;
+  color: #3d4144;
+}
+
+.figure-caption-text-end {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+/*# sourceMappingURL=main.css.map */

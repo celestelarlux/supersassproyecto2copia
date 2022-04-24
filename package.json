@@ -1,0 +1,19 @@
+{
+  "name": "2daentrega",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/celestelarlux/segundaentregacoder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/celestelarlux/segundaentregacoder/issues"
+  },
+  "homepage": "https://github.com/celestelarlux/segundaentregacoder#readme"
+}
